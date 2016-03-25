@@ -13,9 +13,9 @@ describe ('algorithmSolver', function (){
     var result = algorithmSolver(4);
     expect(result).to.equal(4.15);
     var result2 = algorithmSolver(5);
-    expect(result).to.equal(6.15);
+    expect(result2).to.equal(6.15);
     var result3 = algorithmSolver(19);
-    expect(result).to.equal(52.83);
+    expect(result3).to.equal(52.83);
 
   });
 
