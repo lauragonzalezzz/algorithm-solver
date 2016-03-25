@@ -3,10 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <title>Test Algorithm</title>
+  <link rel="stylesheet" type="text/css" href="/css/mocha.css">
 </head>
 <body>
+  <div id="mocha"></div>
 
+  <script type="text/javascript" src="/js/mocha.js"></script>
+  <script type="text/javascript" src="/js/chai.js"></script>
+  <script>mocha.setup('bdd');</script>
   <script type="text/javascript" src="/js/algorithm.js"></script>
-  <script type="text/javascript" src"/js/test/algorith.spec.
+  <script type="text/javascript" src="/js/test/algorithm.spec.js"></script>
+  <script>
+  var expect = chai.expect;
+  chai.should();
+  mocha.run();
+  </script>
 </body>
 </html>
