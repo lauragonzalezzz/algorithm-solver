@@ -13,7 +13,6 @@ function algorithmSolver(number) {
 
   sumOfSquareRoots = sumOfSquareRoots.toFixed(2);
   sumOfSquareRoots = Number(sumOfSquareRoots);
-  console.log('sumOfSquareRoots',sumOfSquareRoots);
 
   return sumOfSquareRoots;
 };
